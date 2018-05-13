@@ -1,0 +1,5 @@
+javac *.java
+start rmiregistry 5000
+rmic ChatImplement
+java ChatServer
+java ChatClient
